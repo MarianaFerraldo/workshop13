@@ -1,0 +1,22 @@
+body {
+    background-color: #caf0f8;
+}
+
+
+.purple {
+    background-color: #00b4d8;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 1px 1px 5px;
+    color: white;
+}
+
+.users1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    text-align: left;
+    padding: 2px;
+    list-style-type: none;    
+    color: #03045e;
+    
+    
+}
