@@ -67,3 +67,48 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+/*********************************************/
+
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #FAE3D9; 
+  padding: 20px;
+}
+
+.App p {
+  font-size: 18px;
+  margin: 10px;
+  padding: 5px 10px;
+  background-color: #61C0BF; 
+  color: #fff;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.App p:hover {
+  background-color: #FFCACC; 
+}
+
+
+.App h2, ul {
+  font-size: 24px;
+  margin-top: 20px;
+  color: #fff; 
+  background:#FFB6B9 ;
+  border-radius: 8px;
+}
+
+.App ul {
+  list-style: none;
+  padding: 10px;
+  color: #272829;
+  background: #FFB6B9;
+  border-radius: 8px;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+}
+
+
