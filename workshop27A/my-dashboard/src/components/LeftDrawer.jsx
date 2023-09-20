@@ -1,4 +1,4 @@
-// LeftDrawer.jsx
+
 import React from 'react';
 import Box from '@mui/material/Box';
 import Drawer from '@mui/material/Drawer';
@@ -14,7 +14,7 @@ function LeftDrawer({ isOpen, toggleDrawer }) {
   return (
     <Drawer anchor="left" open={isOpen} onClose={toggleDrawer}>
       <Box
-        sx={{ width: '240px' }} // Adjust the width as needed
+        sx={{ width: '240px' }} 
         role="presentation"
         onClick={toggleDrawer}
         onKeyDown={toggleDrawer}
@@ -30,7 +30,6 @@ function LeftDrawer({ isOpen, toggleDrawer }) {
               </ListItemButton>
             </ListItem>
           ))}
-          {/* Add more menu items as needed */}
         </List>
       </Box>
     </Drawer>

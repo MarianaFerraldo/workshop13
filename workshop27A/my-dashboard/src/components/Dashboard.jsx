@@ -29,7 +29,7 @@ export default function Dashboard() {
         <Typography variant="h5">Welcome to your dashboard</Typography>
       </Box>
       <Grid container spacing={2}>
-        {/* First Grid Layout */}
+       
         <Grid item xs={4}>
           <BoxComponent />
         </Grid>
@@ -40,7 +40,7 @@ export default function Dashboard() {
           <BoxComponent />
         </Grid>
 
-        {/* Second Grid Layout */}
+        
         <Grid item xs={4}>
           <BoxComponent />
         </Grid>

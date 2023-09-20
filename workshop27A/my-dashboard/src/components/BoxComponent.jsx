@@ -1,5 +1,5 @@
 import React from 'react';
-import Grid from '@mui/material/Grid'; // Import the Grid component
+import Grid from '@mui/material/Grid'; 
 
 const gridStyle = {
   width: '200px',
@@ -11,7 +11,7 @@ const gridStyle = {
 export default function BoxComponent({ style }) {
   return (
     <Grid container style={{ ...gridStyle, ...style }}>
-      {/* Your content for the GridComponent */}
+    
     </Grid>
   );
 }
