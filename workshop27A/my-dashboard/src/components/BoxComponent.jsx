@@ -1,18 +1,17 @@
 import React from 'react';
-import Box from '@mui/material/Box';
+import Grid from '@mui/material/Grid'; // Import the Grid component
 
-export default function BoxComponent() {
+const gridStyle = {
+  width: '200px',
+  height: '200px',
+  backgroundColor: 'lightgrey',
+  padding: '20px',
+};
+
+export default function BoxComponent({ style }) {
   return (
-    <Box
-      sx={{
-        width: 300,
-        height: 300,
-        backgroundColor: 'primary.dark',
-        '&:hover': {
-          backgroundColor: 'primary.main',
-          opacity: [0.9, 0.8, 0.7],
-        },
-      }}
-    />
+    <Grid container style={{ ...gridStyle, ...style }}>
+      {/* Your content for the GridComponent */}
+    </Grid>
   );
 }
